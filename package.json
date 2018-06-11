@@ -1,0 +1,17 @@
+{
+  "name": "hello-world-nwjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+   "start": "nw",
+   "build": "nwbuild . -p win32,linux64"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nw": "^0.30.2",
+    "nw-builder": "^3.5.4"
+  }
+}
